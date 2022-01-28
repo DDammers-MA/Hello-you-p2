@@ -13,7 +13,8 @@ border-radius: 5px;
 .box{
 background-image: url(../img/starryNight.jpg);
 padding: 30px;
-margin-top: 0px;
+margin-top: -10px;
+margin-left: -10px;
 
 }
 article{
@@ -24,6 +25,11 @@ article{
 .topnav {
   background-color: #333;
   overflow: hidden;
+  margin-left: -10px;
+}
+
+footer{
+  
 }
 
 /* Style the links inside the navigation bar */
@@ -51,16 +57,67 @@ article{
 
 
 .logo{
-  width: 11vw;
+  width: 9vw;
   display: flex;
   flex-direction: row;
   position:absolute; right: 8px;
-  margin-top: -65px;
+  margin-top: 1px;
 
 }
+
+
 img{
 width: 50vw;
 margin-bottom: 10px;
 display: block;
 
+}
+@media screen and (max-width: 1000px) {
+  main{
+      width: 80vw;
+
+  }
+  footer > p{
+      width: 80vw;
+  }
+  img:hover{
+      transform: none;
+  }
+  .Top{
+      width: 60px;
+      height: 60px;
+      bottom: 60px;
+      right: 60px;
+ 
+  }
+  header{
+      height: auto;
+  }
+
+  nav{
+      width: 100%;
+  }
+
+  nav> ul{
+      display: block;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  body{
+      font-size: 16px;
+
+  }
+  main{
+      width: 100vw;
+      padding: 20px;
+  }
+  h1{
+      font-size: 180%;
+  }
+  footer > p{
+      width: 100vw;
+      padding-left: 60px;
+  }
 }

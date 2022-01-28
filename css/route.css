@@ -43,4 +43,56 @@ body{
 footer{
     margin-top: 45px;
 }
+img{
+    width: 475px;
+}
     
+@media screen and (max-width: 1000px) {
+    main{
+        width: 80vw;
+  
+    }
+    footer > p{
+        width: 80vw;
+    }
+    img:hover{
+        transform: none;
+    }
+    .Top{
+        width: 60px;
+        height: 60px;
+        bottom: 60px;
+        right: 60px;
+   
+    }
+    header{
+        height: auto;
+    }
+  
+    nav{
+        width: 100%;
+    }
+  
+    nav> ul{
+        display: block;
+    }
+  
+  }
+  
+  @media screen and (max-width: 600px) {
+    body{
+        font-size: 16px;
+  
+    }
+    main{
+        width: 100vw;
+        padding: 20px;
+    }
+    h1{
+        font-size: 180%;
+    }
+    footer > p{
+        width: 100vw;
+        padding-left: 60px;
+    }
+  }
