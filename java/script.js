@@ -6,7 +6,7 @@ const myInput = document.getElementById("myInput");
 let lokaties = [
     {
         "titel": "plaats 0",
-        "image": "img/0.jpg"
+        "image": "img/route 0.jpg"
     },
     {
         "titel": "plaats 1",
