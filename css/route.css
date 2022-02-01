@@ -1,7 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 body{ 
-    background-color: black; 
+    background-color: white; 
 } 
-
+.mainTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
 #container{ 
     background-color: aliceblue; 
     width: 900px; 
@@ -10,24 +21,33 @@ body{
     display: grid; 
     grid-template-columns: auto auto; 
     border: inset 2px gray; 
-
+    margin-bottom: 40px;
 } 
 #myInteraction{ 
     padding: 10px; 
 } 
-
+header{
+   padding-bottom: 40px;
+}
+footer{
+    padding-bottom: 0px;
+    padding-top: 40px;
+}
 .topnav {
-    background-color: #333;
+    background-color: black;
     overflow: hidden;
+    margin-bottom: 40px;
+    border: 5px black solid;
 }
 
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    margin-left: 70px;
 }
         
 .topnav a:hover {
@@ -41,7 +61,7 @@ body{
 }
 
 footer{
-    margin-top: 45px;
+    padding: 0px;
 }
 img{
     width: 475px;
